@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAC - LojaPC</title>
+    <link rel="stylesheet" href="suporte.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo">LojaPC</div>
+            <nav class="menu">
+                <a href="index.html">Início</a>
+                <a href="produtos.html">Produtos</a>
+                <button class="cart-button" aria-label="Abrir carrinho" onclick="location.href='carrinho.html'">
+                    <img src="carrinho.png" alt="Carrinho de compras" class="cart-icon">
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Central de Atendimento ao Cliente</h1>
+        <form class="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
